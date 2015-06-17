@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width'>
+    <title>JS Img Changer</title>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <style>
+        #wrapper {
+            position: relative;
+        }
+        #wrapper img {
+            display: block;
+            position: absolute;
+        }
+        #wrapper .other {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div id='wrapper'>
+    <img class='ini' src='img-01.png' alt=''>
+    <img class='other' src='img-02.png' alt=''>
+    <img class='other' src='img-03.png' alt=''>
+    <img class='other' src='img-04.png' alt=''>
+</div>
+
+<script src='image-switcher-2.js'></script>
+
+</body>
+</html>
